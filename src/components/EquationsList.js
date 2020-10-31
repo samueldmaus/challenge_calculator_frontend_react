@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 import { connect, useDispatch, useSelector } from 'react-redux'
-import mapStoreToProps from '../redux/mapStoreToProps'
 import {Box, Card, CardHeader, CardBody, CardFooter, Heading} from 'grommet'
 
 function EquationsList(props) {
@@ -11,7 +10,7 @@ function EquationsList(props) {
 
     useEffect((props) => {
         dispatch({type: 'GET_EQUATIONS'})
-    })
+    }, [])
 
     return(
         <Box style={{paddingTop: 20}}>
