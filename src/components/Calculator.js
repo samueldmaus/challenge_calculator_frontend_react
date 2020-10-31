@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Button, Box, TextInput} from 'grommet'
 import {LinkPrevious} from 'grommet-icons'
+import { connect } from 'react-redux'
 
 class Calculator extends Component{
     // state to keep track of what's in the input field
@@ -29,7 +30,18 @@ class Calculator extends Component{
         })
     }
 
-    //
+    // delete the last value from the input field
+    deleteInput = () => {
+        this.setState({
+            value: this.state.value.slice(0, this.state.value.length-1)
+        })
+    }
+
+    // dispatch the equation to the equations saga and reset input field
+    addToEquationPlusCalculate = () => {
+        this.props.dispatch({type: "ADD_EQUATION", payload: {equation: this.state.value}});
+        this.clearInput();
+    }   
 
     render(){
         return(
@@ -69,4 +81,4 @@ class Calculator extends Component{
     }
 }
 
-export default Calculator;
+export default connect()(Calculator);

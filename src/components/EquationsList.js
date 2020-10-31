@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import { connect, useDispatch } from 'react-redux'
 import mapStoreToProps from '../redux/mapStoreToProps'
-import {Grommet, Box, Card, CardHeader, CardBody, CardFooter, Heading} from 'grommet'
+import {Box, Card, CardHeader, CardBody, CardFooter, Heading} from 'grommet'
 
 function EquationsList(props) {
 

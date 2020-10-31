@@ -5,7 +5,8 @@ import {Provider} from 'react-redux'
 import createSagaMiddleware from 'redux-saga'
 import logger from 'redux-logger'
 import App from './components/App';
-
+import rootReducer from './redux/reducers/_root.reducer.js'
+import rootSaga from './redux/sagas/_root.saga.js'
 import reportWebVitals from './reportWebVitals';
 
 // create sagamiddleware
