@@ -45,7 +45,7 @@ class Calculator extends Component{
 
     render(){
         return(
-            <Box style={{width:308, paddingBottom:15}}border={{color: 'black', size:'medium'}} direction="column" gap="xsmall">
+            <Box style={{width:308, paddingBottom:15}}border={{color: 'brand', size:'medium'}} direction="column" gap="xsmall">
                 <Box style={{padding: 10}} alignContent="center">
                     <TextInput style={{width: 280 }} size= "medium" value={this.state.value}/> 
                 </Box>
