@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import {Grommet, Heading} from 'grommet'
+import {Heading} from 'grommet'
 import Calculator from './Calculator'
+import EquationsList from './EquationsList'
 
 class App extends Component{
   render(){
@@ -8,6 +9,7 @@ class App extends Component{
       <>
         <Heading >Calculator</Heading>
         <Calculator/>
+        <EquationsList/>
       </>
     )
   }
