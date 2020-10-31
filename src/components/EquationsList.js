@@ -11,7 +11,7 @@ function EquationsList(props) {
 
     useEffect((props) => {
         dispatch({type: 'GET_EQUATIONS'})
-    }, [])
+    })
 
     return(
         <Box style={{paddingTop: 20}}>
