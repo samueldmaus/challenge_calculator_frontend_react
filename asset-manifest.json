@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/challenge_calculator_frontend_react/static/js/main.b65713e9.chunk.js",
-    "main.js.map": "/challenge_calculator_frontend_react/static/js/main.b65713e9.chunk.js.map",
+    "main.js": "/challenge_calculator_frontend_react/static/js/main.d6edb36d.chunk.js",
+    "main.js.map": "/challenge_calculator_frontend_react/static/js/main.d6edb36d.chunk.js.map",
     "runtime-main.js": "/challenge_calculator_frontend_react/static/js/runtime-main.2e3ad59b.js",
     "runtime-main.js.map": "/challenge_calculator_frontend_react/static/js/runtime-main.2e3ad59b.js.map",
     "static/js/2.5b780b7b.chunk.js": "/challenge_calculator_frontend_react/static/js/2.5b780b7b.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.2e3ad59b.js",
     "static/js/2.5b780b7b.chunk.js",
-    "static/js/main.b65713e9.chunk.js"
+    "static/js/main.d6edb36d.chunk.js"
   ]
 }
